@@ -1,0 +1,28 @@
+{
+  "name": "git-author-stats",
+  "version": "0.0.1",
+  "description": "Displays author statistics based on git log",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nielskrijger/git-author-stats.git"
+  },
+  "author": "Niels Krijger",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "minimatch": "^3.0.4",
+    "shelljs": "^0.7.8",
+    "simple-git": "^1.74.1",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
